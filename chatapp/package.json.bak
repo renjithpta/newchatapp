@@ -1,0 +1,48 @@
+{
+  "name": "ng-chat-nodejs",
+  "version": "1.0.0",
+  "description": "A simple Node.js application that uses ng-chat",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpaschoal/ng-chat-nodejs.git"
+  },
+  "keywords": [
+    "ng-chat",
+    "chat",
+    "nodejs",
+    "angular"
+  ],
+  "author": "Rafael Carvalho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rpaschoal/ng-chat-nodejs/issues"
+  },
+  "homepage": "https://github.com/rpaschoal/ng-chat-nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-session": "^1.15.3",
+    "socket.io": "^2.0.3",
+    "vash": "^0.12.3",
+    "imagemin": "^5.2.2",
+    "imagemin-jpegtran": "^5.0.2",
+    "imagemin-pngquant": "^5.0.0",
+    "body-parser": "^1.17.2",
+    "connect-mongo": "^1.3.2",
+    "cookie-parser": "^1.4.3",
+    "crypto": "0.0.3",
+    "mime": "^1.3.4",
+    "mongoose": "^4.10.0",
+    "morgan": "^1.8.1",
+    "redis": "^2.7.1",
+    "serve-favicon": "~2.3.2",
+    "shortid": "^2.2.8",
+    "socket.io-redis": "^4.0.0",
+    "socket.io-stream": "^0.9.1"
+  }
+}
